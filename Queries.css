@@ -1,0 +1,385 @@
+@media (max-width: 84em) {
+  /* html {
+     10/16 = 62.5
+    font-size: 70%;
+  } */
+
+  .testimonial-text {
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.4rem;
+  }
+
+  .testimonial-about {
+    font-size: 1.1rem;
+    gap: 1rem;
+  }
+
+  .email {
+    padding: 1.4rem 5rem;
+    font-size: 1.4rem;
+  }
+
+  .signup-btn {
+    padding: 0.4rem 1.5rem;
+  }
+
+  .email-signup-box {
+    max-width: 750px;
+  }
+
+  .email-box-heading {
+    font-size: 3rem;
+  }
+
+  .signin-descrip {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  /* .email-signup-box {
+    max-width: 650px;
+    background-color: hsl(217, 28%, 15%);
+    padding: 4rem;
+  } */
+}
+
+@media (max-width: 75em) {
+  /* .hero-description {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+  } */
+
+  .working-details-para {
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+  }
+}
+@media (max-width: 59em) {
+  .intro-img {
+    scale: 0.8;
+  }
+
+  .hero-heading {
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-section-box {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 3rem 0 3rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .testimonial {
+    gap: 1rem;
+    padding: 3rem 2rem 2rem 2rem;
+    /* margin: 0 1.4rem; */
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.4rem;
+    word-spacing: 0rem;
+  }
+
+  .testimonial-about {
+    font-size: 1.2rem;
+    gap: 1rem;
+  }
+
+  .email-signup-box {
+    width: 500px;
+  }
+
+  .email-box-heading {
+    font-size: 2rem;
+  }
+
+  .signin-descrip {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .email-signup-box {
+    max-width: 650px;
+    background-color: hsl(217, 28%, 15%);
+    padding: 2rem;
+  }
+
+  .signup-btn {
+    padding: 0.1rem 1.2rem;
+  }
+
+  .email {
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+  }
+
+  .footer-info {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 49em) {
+  .working-detail-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .working-detail-info {
+    /* display: flex;
+    flex-direction: column; */
+    /* max-width: 600px; */
+    padding-left: 2rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .working-detail-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .footer {
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+    background-color: #0b1523;
+  }
+
+  .footer-info {
+    gap: 0.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-5col {
+    align-self: center;
+  }
+
+  .footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .footer-info {
+    display: flex;
+
+    /* justify-content: center; */
+    gap: 6rem;
+    color: #cfcccc;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .footer-1col {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .hero-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .hero-heading {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-get-started {
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem 3rem;
+  }
+
+  .facility-description-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facility-para {
+    padding: 0 3.6rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .working-detail-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .productivity-img {
+    width: 80%;
+    align-self: center;
+  }
+
+  .working-detail-info {
+    /* display: flex;
+    flex-direction: column; */
+    /* max-width: 600px; */
+    padding-left: 2rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .working-detail-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .footer {
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+    background-color: #0b1523;
+  }
+
+  .footer-info {
+    gap: 0.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-5col {
+    align-self: center;
+  }
+
+  .footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .footer-info {
+    display: flex;
+
+    /* justify-content: center; */
+    gap: 6rem;
+    color: #cfcccc;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .footer-1col {
+    font-size: 1.2rem;
+  }
+}
+
+/* .footer-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+/* align-items: center;
+    justify-items: center;
+    color: #cfcccc;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem; */
+
+/* .image2-productivity {
+    display: block;
+  }
+
+  .image1-productivity {
+    display: none;
+  } */
+
+/* .working-detail-info {
+    /* display: flex;
+    flex-direction: column; */
+/* max-width: 600px;
+    padding-left: 4rem;
+    color: hsl(0, 0%, 100%); */
+/* }  */
+
+@media (max-width: 34em) {
+  .header {
+    padding: 1.2rem 1.2rem 0 1.2rem;
+    font-size: 1rem;
+  }
+
+  .flyo {
+    zoom: 0.7;
+  }
+
+  .symbol-flyo {
+    zoom: 0.7;
+  }
+
+  .footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .inputs {
+    flex-direction: column;
+  }
+  .signup-btn {
+    padding: 0.4rem 0.2rem;
+  }
+
+  .email-signup-box {
+    max-width: 650px;
+    background-color: hsl(217, 28%, 15%);
+    padding: 3rem 5rem;
+  }
+
+  .email-signup-box {
+    width: 900px;
+  }
+
+  .testimonial-section-box {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 0rem 0 0rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .testimonial {
+    gap: 1rem;
+    padding: 3rem 2rem 2rem 2rem;
+    /* margin: 0 1.4rem; */
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.4rem;
+    word-spacing: 0rem;
+  }
+
+  .testimonial-about {
+    font-size: 1.2rem;
+    gap: 1rem;
+  }
+}
