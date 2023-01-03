@@ -490,12 +490,16 @@ body {
 
 .footer-1col {
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
+  justify-content: space-between;
   font-size: 1.4rem;
+  align-items: center;
 }
 
 .location {
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: 30px;
+  /* height: 100%; */
 }
 
 .footer-2col {
@@ -548,11 +552,11 @@ body {
 .social-icon:active,
 .social-icon:hover {
   color: hsl(198, 60%, 50%);
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
 }
 
 .social-icon-insta:active,
 .social-icon-insta:hover {
   color: rgb(199, 71, 135);
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
